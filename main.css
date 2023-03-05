@@ -26,8 +26,6 @@
     }
 }
 
-
-
 .screen {
     margin-top: 50px;
     background-color: rgb(255, 244, 224);
@@ -46,28 +44,27 @@
     font-style: italic;
 }
 
-/* .under-screen */
+.screen-image-container {
+    position: relative;
+}
 
 .bubble {
     background: url(cloud.svg);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* width: 75%; */
-    height: 0;
-    /* padding-top: 6%; */
-    /* margin-top: 20px; */
-    padding-top: 1.5em;
-    padding-bottom: calc(1.5em + 20%);
+
+    text-align: center;
+    
+    /* ставим острие у левой границы */
+    margin-right: 25%;
+    margin-left: -25%;
+
+    /* отсупы пузыря от текста */
+    padding-top: 1.2em;
+    padding-bottom: calc(1.2em + 25%);
     padding-left: 4em;
     padding-right: 4em;
-    /* padding-bottom: 1em; */
-    box-sizing: content-box;
-    /* line-height: 1; */
-    text-align: center;
-    /* vertical-align: middle; */
-    /* display: inline; */
-    overflow: visible;
 }
 
 .screen1 {
@@ -76,9 +73,8 @@
 
 .screen1-bubble-cat {
     position: absolute;
-    left: 60%;
-    top: 10px;
+    left: 51%;
+    bottom: 97.1%;
     width: auto;
     height: auto;
-    font-size: 1rem;
 }
