@@ -55,20 +55,21 @@
     background-repeat: no-repeat;
 
     text-align: center;
-    
+    height: 0;
+
     /* ставим острие у левой границы */
     margin-right: 25%;
     margin-left: -25%;
 
     /* отсупы пузыря от текста */
     padding-top: 1.2em;
-    padding-bottom: calc(1.2em + 25%);
+    padding-bottom: calc(1em + 30%);
     padding-left: 4em;
     padding-right: 4em;
 }
 
 .screen1 {
-    padding-top: 60px;
+    padding-top: calc(5em);
 }
 
 .screen1-bubble-cat {
