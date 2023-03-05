@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720;
+        /* font-size: 1.1rem; */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+        /* font-size: 1.2rem; */
+    }
+}
+
+
+
+.screen {
+    margin-top: 50px;
+    /* font-size: 2rem; */
+    background-color: rgb(255, 244, 224);
+    position: relative;
+}
+
+.quote {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* .under-screen */
+
+.bubble {
+    background: url(cloud.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* width: 75%; */
+    height: 0;
+    /* padding-top: 6%; */
+    /* margin-top: 20px; */
+    padding-top: 1.5em;
+    padding-bottom: calc(1.5em + 20%);
+    padding-left: 4em;
+    padding-right: 4em;
+    /* padding-bottom: 1em; */
+    box-sizing: content-box;
+    /* line-height: 1; */
+    text-align: center;
+    /* vertical-align: middle; */
+    /* display: inline; */
+    overflow: visible;
+}
+
+.screen1 {
+    padding-top: 60px;
+}
+
+.screen1-bubble-cat {
+    position: absolute;
+    left: 60%;
+    top: 10px;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+}
