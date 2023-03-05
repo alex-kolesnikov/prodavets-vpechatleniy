@@ -79,3 +79,34 @@
     width: auto;
     height: auto;
 }
+
+.screen1-bubble-mouse {
+    position: absolute;
+    transform: scaleX(-1);
+
+    right: 41%;
+    bottom: 19%;
+    width: auto;
+    height: auto;
+}
+
+.bubble-mirrored em {
+    display: block;
+    transform: scaleX(-1);
+}
+
+.screen2-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.screen2-text1 {
+    /* position: absolute;   */
+
+    left: 51%;
+    bottom: 80%;
+    width: auto;
+    height: auto;
+
+    font-size: 1.3em;
+}
